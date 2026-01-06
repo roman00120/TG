@@ -2385,3 +2385,38 @@ img {
         gap: 40px;
     }
 }
+
+/* --- Brand Logo Strip Refinement --- */
+.brand-flex {
+    justify-content: center;
+    gap: 40px;
+}
+
+.brand-item {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #1a202c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.4;
+    transition: var(--transition-smooth);
+    user-select: none;
+    white-space: nowrap;
+}
+
+.brand-item span {
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.brand-item:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    color: var(--brand);
+}
+
+.brand-item i {
+    font-style: normal;
+    margin-right: 5px;
+}
