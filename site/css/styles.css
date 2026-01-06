@@ -1663,3 +1663,180 @@ img {
         height: 150px;
     }
 }
+
+/* --- FAQ Section --- */
+.faq-section {
+    background: #f8f9fa;
+}
+
+.faq-card-box {
+    background: white;
+    padding: 60px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.02);
+}
+
+.faq-intro {
+    color: #4a5568;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.faq-list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+    border-bottom: 2px solid #edf2f7;
+    text-decoration: none;
+    color: #1a202c;
+    font-weight: 800;
+    transition: var(--transition-smooth);
+    font-size: 0.95rem;
+}
+
+.faq-item:hover {
+    color: var(--brand);
+    padding-left: 10px;
+}
+
+.faq-item i {
+    font-size: 0.9rem;
+    color: var(--brand);
+}
+
+.highlight-faq {
+    border-bottom: none;
+    margin-top: 10px;
+}
+
+/* --- Presence Banner --- */
+.brand-presence-banner {
+    padding: 40px 0;
+    background: #f8f9fa;
+}
+
+.presence-box {
+    height: 480px;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+    background: #000;
+    display: flex;
+}
+
+.presence-globe-img {
+    flex: 1;
+    height: 100%;
+}
+
+.presence-globe-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.presence-overlay-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(105deg, transparent 15%, #b91d1d 15.2%, #000 15.3%);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 80px;
+    text-align: center;
+}
+
+.presence-text-container {
+    color: white;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presence-logo .logo-white {
+    font-size: 2.5rem;
+    font-weight: 900;
+    display: block;
+}
+
+.presence-logo .logo-white span {
+    color: #fff;
+}
+
+.an-electrical-company {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.presence-headline {
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.presence-read-more {
+    display: inline-block;
+    background: #1a202c;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: var(--transition-smooth);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.presence-read-more:hover {
+    background: #fff;
+    color: #000;
+}
+
+@media (max-width: 1024px) {
+    .faq-card-box {
+        grid-template-columns: 1fr;
+        padding: 40px;
+        gap: 40px;
+    }
+
+    .presence-overlay-content {
+        width: 100%;
+        background: linear-gradient(to top, #000 50%, transparent 100%);
+        justify-content: center;
+        padding-right: 0;
+        align-items: flex-end;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .presence-box {
+        height: 600px;
+    }
+
+    .presence-headline {
+        font-size: 1.3rem;
+    }
+}
