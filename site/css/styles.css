@@ -2420,3 +2420,177 @@ img {
     font-style: normal;
     margin-right: 5px;
 }
+
+/* --- Global Smooth Scroll --- */
+html {
+    scroll-behavior: smooth;
+}
+
+/* --- Capacitaciones (Training) Section Refinement --- */
+.training-section {
+    background: #f8fafc;
+}
+
+.training-grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.training-text-content {
+    padding-right: 40px;
+}
+
+.training-header .highlights-main-title {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin: 20px 0;
+    color: #1a202c;
+}
+
+.training-description {
+    font-size: 1.1rem;
+    color: #4a5568;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.training-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.full-dark-btn {
+    display: inline-block;
+    background: #1a202c;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: var(--transition-smooth);
+    text-align: center;
+}
+
+.full-dark-btn:hover {
+    background: var(--brand);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(227, 6, 19, 0.2);
+}
+
+.training-footer-text {
+    font-size: 0.9rem;
+    color: #718096;
+}
+
+/* --- Dynamic Training Card --- */
+.training-card-dynamic {
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.08);
+    border: 1px solid #edf2f7;
+    transition: var(--transition-smooth);
+}
+
+.training-card-dynamic:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 40px 80px rgba(0,0,0,0.12);
+}
+
+.t-card-header {
+    background: #1a202c;
+    padding: 40px;
+    color: white;
+    position: relative;
+}
+
+.t-badge {
+    display: inline-block;
+    background: var(--brand);
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 0.7rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.t-card-header h3 {
+    font-size: 1.8rem;
+    font-weight: 950;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+}
+
+.t-card-header p {
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+.t-card-body {
+    padding: 40px;
+    text-align: center;
+}
+
+.t-duration-box {
+    margin-bottom: 30px;
+}
+
+.d-label {
+    display: block;
+    font-size: 0.8rem;
+    color: #a0aec0;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.d-value {
+    font-size: 3rem;
+    font-weight: 950;
+    color: #1a202c;
+    line-height: 1;
+}
+
+.d-unit {
+    font-weight: 800;
+    color: #1a202c;
+}
+
+.t-enroll-title {
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #1a202c;
+}
+
+.t-continue-btn {
+    display: block;
+    background: var(--brand);
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 900;
+    transition: var(--transition-smooth);
+}
+
+.t-continue-btn:hover {
+    background: #a5040e;
+}
+
+@media (max-width: 1024px) {
+    .training-grid-layout {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .training-text-content {
+        padding-right: 0;
+        text-align: center;
+    }
+}
