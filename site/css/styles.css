@@ -3119,3 +3119,70 @@ html {
         padding: 0 20px 20px;
     }
 }
+
+/* --- Brand Presence & Philosophy Cards --- */
+.brand-philosophy-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.brand-philosophy-card {
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 25px;
+    padding: 40px 35px;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.brand-philosophy-card:hover {
+    border-color: #e30613;
+    transform: translateY(-5px);
+    box-shadow: 0 20px 50px rgba(227, 6, 19, 0.1);
+}
+
+.card-icon-circle {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #e30613, #a5040e);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 25px;
+}
+
+.card-icon-circle svg {
+    fill: white;
+}
+
+.brand-philosophy-card h3 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #e30613;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.brand-philosophy-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #64748b;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.brand-philosophy-card p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .brand-philosophy-section {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
