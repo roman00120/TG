@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia | Total Ground</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">TOTAL<span>GROUND</span></a>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="empresa.html" class="nav-link">Empresa</a>
+                <a href="servicios.html" class="nav-link">Servicios</a>
+                <div class="nav-item-has-dropdown">
+                    <a href="catalogo.html" class="nav-link">Catálogo <span class="arrow">▾</span></a>
+                    <div class="dropdown-menu">
+                        <a href="catalogo.html?cat=bot-tgone" class="dropdown-item"><i>⚡</i> TG-ONE (IIoT)</a>
+                        <a href="catalogo.html?cat=regulador-respaldo" class="dropdown-item"><i>⚡</i> Regulación y
+                            Respaldo</a>
+                        <a href="catalogo.html?cat=pararrayos" class="dropdown-item"><i>⚡</i> Sistema De Pararrayos</a>
+                        <a href="catalogo.html?cat=puesta-a-tierra" class="dropdown-item"><i>⚡</i> Sistema De Puesta A
+                            Tierra</a>
+                        <a href="catalogo.html?cat=supresores" class="dropdown-item"><i>⚡</i> Supresores</a>
+                        <a href="catalogo.html?cat=telemetria" class="dropdown-item"><i>⚡</i> Telemetría Y Control</a>
+                        <a href="catalogo.html?cat=banco-capacitores" class="dropdown-item"><i>⚡</i> Banco de
+                            Capacitores</a>
+                        <a href="catalogo.html?cat=infraestructura" class="dropdown-item"><i>⚡</i> Infraestructura</a>
+                    </div>
+                </div>
+                <a href="eventos.html" class="nav-link">Eventos</a>
+                <a href="multimedia.html" class="nav-link">Multimedia</a>
+                <a href="manuales.html" class="nav-link">Manuales</a>
+            </nav>
+            <a href="contacto.html" class="cta-btn">Contáctanos</a>
+            <div class="mobile-toggle"><span></span><span></span><span></span></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header section-padding">
+            <div class="container">
+                <h1 class="hero-title">Galería <span>Multimedia</span></h1>
+                <p class="section-subtitle">Explora nuestras instalaciones, proyectos y capacitaciones en formato
+                    visual.</p>
+            </div>
+        </section>
+
+        <section class="gallery-section section-padding">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-type="video"
+                        onclick="openModal('🎬 Video: Instalaciones Corporativas')">
+                        <div class="gallery-thumb">📹</div>
+                        <div class="gallery-info">
+                            <h4>Tour Corporativo</h4>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openModal('📷 Imagen: Sistema de Tierras')">
+                        <div class="gallery-thumb">⚡</div>
+                        <div class="gallery-info">
+                            <h4>Proyecto Site Delta</h4>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openModal('📷 Imagen: Laboratorio R&D')">
+                        <div class="gallery-thumb">🔬</div>
+                        <div class="gallery-info">
+                            <h4>Innovación</h4>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openModal('📷 Imagen: Planta Monterrey')">
+                        <div class="gallery-thumb">🏭</div>
+                        <div class="gallery-info">
+                            <h4>Producción</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Layer -->
+    <div id="mediaModal" class="modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div id="modalBody" class="modal-body-content">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Total Ground S.A. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
