@@ -1506,3 +1506,160 @@ img {
         font-size: 1.8rem;
     }
 }
+
+/* --- What We Do Section --- */
+.what-we-do-section {
+    background: #f8f9fa;
+}
+
+.what-we-do-box {
+    background: white;
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.02);
+}
+
+.wwd-top-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.wwd-intro {
+    font-size: 1.1rem;
+    color: #4a5568;
+    line-height: 1.5;
+    max-width: 450px;
+}
+
+.wwd-slider-container {
+    position: relative;
+}
+
+.wwd-slider {
+    display: flex;
+    gap: 15px;
+}
+
+.slider-item {
+    flex: 1;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 180px;
+}
+
+.slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(0.5);
+    transition: var(--transition-smooth);
+}
+
+.slider-item img:hover {
+    filter: grayscale(0);
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.slider-arrow {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #a0aec0;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+
+.slider-arrow:hover {
+    color: var(--brand);
+}
+
+.wwd-divider {
+    height: 4px;
+    width: 100%;
+    background: #e2e8f0;
+    margin: 30px 0;
+    position: relative;
+    border-radius: 2px;
+}
+
+.wwd-divider::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    background: var(--brand);
+    border-radius: 2px;
+}
+
+.wwd-description {
+    font-size: 1rem;
+    color: #1a202c;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.wwd-list-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.wwd-list {
+    list-style: none;
+    padding: 0;
+}
+
+.wwd-list li {
+    font-size: 0.95rem;
+    color: #4a5568;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wwd-list li i {
+    color: var(--brand);
+    font-size: 0.7rem;
+    line-height: 1;
+}
+
+@media (max-width: 1024px) {
+    .wwd-top-row {
+        grid-template-columns: 1fr;
+    }
+
+    .wwd-list-grid {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .what-we-do-box {
+        padding: 40px;
+    }
+
+    .wwd-list-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .wwd-slider {
+        flex-direction: column;
+    }
+
+    .slider-item {
+        height: 150px;
+    }
+}
