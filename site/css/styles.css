@@ -1717,39 +1717,86 @@ img {
 }
 
 .faq-item {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #edf2f7;
+    text-decoration: none;
+    color: #1a202c;
+    transition: var(--transition-smooth);
+    overflow: hidden;
+}
+
+.faq-item summary {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 0;
-    border-bottom: 1px solid #edf2f7;
-    text-decoration: none;
-    color: #1a202c;
+    cursor: pointer;
+    list-style: none;
     font-weight: 800;
-    transition: var(--transition-smooth);
     font-size: 1.05rem;
     letter-spacing: -0.3px;
+    outline: none;
 }
 
-.faq-item:hover {
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item[open] {
+    background: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    margin: 10px -20px;
+    padding: 0 20px;
+    border-radius: 15px;
+    border-bottom: none;
+}
+
+.faq-item[open] summary {
+    padding-top: 25px;
     color: var(--brand);
-    transform: translateX(10px);
+}
+
+.faq-answer {
+    padding-bottom: 25px;
+    color: #4a5568;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+    animation: fadeInSlide 0.4s ease-out;
+}
+
+@keyframes fadeInSlide {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.faq-item:hover summary {
+    color: var(--brand);
 }
 
 .faq-item i {
     font-size: 1.1rem;
     color: #cbd5e0;
-    transition: var(--transition-smooth);
+    transition: transform 0.3s ease;
 }
 
-.faq-item:hover i {
+.faq-item[open] i {
+    transform: rotate(-90deg);
     color: var(--brand);
-    transform: scale(1.2);
 }
 
 .highlight-faq {
     border-bottom: none;
     margin-top: 15px;
-    color: #1a202c;
 }
 
 /* --- Presence Banner 2026 --- */
