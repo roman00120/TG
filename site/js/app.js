@@ -1,46 +1,14 @@
-const PRODUCTS = [
-    // PROTECCIÓN - PUESTA A TIERRA
-    { id: 1, name: "Electrodo Magnetoactivo KDA-Series", category: "puesta-a-tierra", price: "Contactar", image: "https://totalground.com/assets/img/iconos/puesta-a-tierra.png", icon: "🌍" },
-    { id: 2, name: "Compuesto H2O Ohm", category: "puesta-a-tierra", price: "Contactar", image: "https://totalground.com/assets/img/iconos/puesta-a-tierra.png", icon: "🧪" },
-    { id: 3, name: "Acoplador de Impedancias", category: "puesta-a-tierra", price: "Contactar", image: "https://totalground.com/assets/img/iconos/puesta-a-tierra.png", icon: "🔗" },
-    { id: 17, name: "Gema - Relleno Conductivo", category: "puesta-a-tierra", price: "Contactar", image: "https://totalground.com/assets/img/iconos/puesta-a-tierra.png", icon: "💎" },
-    { id: 18, name: "Barra de Unión a Tierra", category: "puesta-a-tierra", price: "Contactar", image: "https://totalground.com/assets/img/iconos/puesta-a-tierra.png", icon: "➖" },
+let PRODUCTS = [];
 
-    // PROTECCIÓN - PARARRAYOS
-    { id: 4, name: "Punta Dipolo Corona", category: "pararrayos", price: "Contactar", image: "https://totalground.com/assets/img/iconos/pararrayos.png", icon: "🗼" },
-    { id: 5, name: "Sistema de Pararrayos KDA-01", category: "pararrayos", price: "Contactar", image: "https://totalground.com/assets/img/iconos/pararrayos.png", icon: "⛈️" },
-    { id: 19, name: "Mástil Galvanizado 3m", category: "pararrayos", price: "Contactar", image: "https://totalground.com/assets/img/iconos/pararrayos.png", icon: "📏" },
-    { id: 20, name: "Contador de Descargas", category: "pararrayos", price: "Contactar", image: "https://totalground.com/assets/img/iconos/pararrayos.png", icon: "🔢" },
-
-    // PROTECCIÓN - SUPRESORES
-    { id: 6, name: "Supresor de Transitorios Din Rail", category: "supresores", price: "Contactar", image: "https://totalground.com/assets/img/iconos/supresores.png", icon: "🛡️" },
-    { id: 7, name: "Supresor Clase B+C", category: "supresores", price: "Contactar", image: "https://totalground.com/assets/img/iconos/supresores.png", icon: "⚡" },
-    { id: 21, name: "Supresor Trifásico 480V", category: "supresores", price: "Contactar", image: "https://totalground.com/assets/img/iconos/supresores.png", icon: "🛡️" },
-
-    // REGULACIÓN Y RESPALDO
-    { id: 8, name: "UPS Gama 600/1000/2000", category: "regulador-respaldo", price: "Contactar", image: "https://totalground.com/assets/img/iconos/regulacion-y-respaldo.png", icon: "🔋" },
-    { id: 9, name: "Regulador Monofásico TG-360W", category: "regulador-respaldo", price: "Contactar", image: "https://totalground.com/assets/img/iconos/regulacion-y-respaldo.png", icon: "🔌" },
-    { id: 10, name: "UPS On Line Omega 10-260 KVA", category: "regulador-respaldo", price: "Contactar", image: "https://totalground.com/assets/img/iconos/regulacion-y-respaldo.png", icon: "📟" },
-    { id: 22, name: "UPS Interactivo Serie-X", category: "regulador-respaldo", price: "Contactar", image: "https://totalground.com/assets/img/iconos/regulacion-y-respaldo.png", icon: "🔋" },
-
-    // TELEMETRÍA Y CONTROL
-    { id: 11, name: "Total View Analizador", category: "telemetria", price: "Contactar", image: "https://totalground.com/assets/img/iconos/telemetria-y-control.png", icon: "📊" },
-    { id: 12, name: "Smart View GSM/Ethernet", category: "telemetria", price: "Contactar", image: "https://totalground.com/assets/img/iconos/telemetria-y-control.png", icon: "📱" },
-    { id: 23, name: "Sensor de Corriente", category: "telemetria", price: "Contactar", image: "https://totalground.com/assets/img/iconos/telemetria-y-control.png", icon: "🌀" },
-
-    // TG ONE (IIoT)
-    { id: 13, name: "Industrial TRX 4.0", category: "bot-tgone", price: "Contactar", image: "https://totalground.com/assets/img/iconos/iot.png", icon: "🤖" },
-    { id: 14, name: "CHECKTHOR Gateway", category: "bot-tgone", price: "Contactar", image: "https://totalground.com/assets/img/iconos/iot.png", icon: "🛰️" },
-    { id: 24, name: "TG-ONE Node Wireless", category: "bot-tgone", price: "Contactar", image: "https://totalground.com/assets/img/iconos/iot.png", icon: "📡" },
-
-    // BANCO DE CAPACITORES
-    { id: 15, name: "Banco de Capacitores Automático", category: "banco-capacitores", price: "Contactar", image: "https://totalground.com/assets/img/iconos/bancos-capacitores.png", icon: "📦" },
-    { id: 25, name: "Capacitor de Bote Fijo", category: "banco-capacitores", price: "Contactar", image: "https://totalground.com/assets/img/iconos/bancos-capacitores.png", icon: "🔋" },
-
-    // INFRAESTRUCTURA
-    { id: 16, name: "Torre Arriostrada G25/G35/G45", category: "infraestructura", price: "Contactar", image: "https://testing.totalground.com/assets/img/iconos/torres.png", icon: "🏗️" },
-    { id: 26, name: "Tramo de Torre 3m", category: "infraestructura", price: "Contactar", image: "https://testing.totalground.com/assets/img/iconos/torres.png", icon: "🧱" }
-];
+async function loadProducts() {
+    try {
+        const response = await fetch('productos.json');
+        PRODUCTS = await response.json();
+        if (document.getElementById('productGrid')) initCatalog();
+    } catch (error) {
+        console.error('Error loading products:', error);
+    }
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     injectModal();
@@ -48,9 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
     initNavigation();
     initScrollAnimations();
     initContactPopups();
-    if (document.getElementById('productGrid')) initCatalog();
+    loadProducts();
     if (document.getElementById('contactForm')) initContact();
     initParallax();
+    initFamilyCarousel();
 });
 
 /**
@@ -412,4 +381,36 @@ function animateValue(obj) {
             obj.textContent = Math.floor(current) + (obj.dataset.suffix || '');
         }
     }, stepTime);
+}
+/**
+ * Family Carousel Navigation Logic
+ */
+function initFamilyCarousel() {
+    const carousel = document.getElementById('familyCarousel');
+    const nextBtn = document.getElementById('familyNext');
+    const prevBtn = document.getElementById('familyPrev');
+
+    if (!carousel || !nextBtn || !prevBtn) return;
+
+    const scrollAmount = 310; // card width + gap
+
+    nextBtn.addEventListener('click', () => {
+        carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    });
+
+    prevBtn.addEventListener('click', () => {
+        carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    });
+
+    // Toggle button visibility based on scroll position (optional refinement)
+    carousel.addEventListener('scroll', () => {
+        const isAtStart = carousel.scrollLeft <= 5;
+        const isAtEnd = carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth - 5;
+
+        prevBtn.style.opacity = isAtStart ? '0.5' : '1';
+        prevBtn.style.pointerEvents = isAtStart ? 'none' : 'auto';
+
+        nextBtn.style.opacity = isAtEnd ? '0.5' : '1';
+        nextBtn.style.pointerEvents = isAtEnd ? 'none' : 'auto';
+    });
 }

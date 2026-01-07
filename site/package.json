@@ -1,0 +1,13 @@
+{
+    "name": "total-ground-site",
+    "version": "1.0.0",
+    "description": "Sitio web de Total Ground",
+    "scripts": {
+        "start": "npx http-server -c-1",
+        "red": "npx http-server -a 0.0.0.0 -p 8080 -c-1",
+        "share": "npx localtunnel --port 8080"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

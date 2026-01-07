@@ -1,0 +1,1530 @@
+[
+    {
+        "id": 1,
+        "name": "Electrodo TG-1500",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/tg-1500.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 2,
+        "name": "Electrodo TG-2500",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/tg-2500.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 3,
+        "name": "Electrodo TG-700",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/tg-700.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 4,
+        "name": "Electrolito",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/electrolito.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 5,
+        "name": "Espatula para Recoger Escoria TGM-E",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgm-espatula.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 6,
+        "name": "GAT",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/gat.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 7,
+        "name": "Gateway TG-GW191",
+        "category": "bot-tgone",
+        "price": "Contactar",
+        "image": "assets/products/tg-gw191.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 8,
+        "name": "H2Ohm",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/h2ohm.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 9,
+        "name": "Inteliground",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/inteliground.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 10,
+        "name": "Kit Delta Eco",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-eco.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 11,
+        "name": "Kit Delta Piezoeléctrica 06",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-06.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 12,
+        "name": "Kit Delta Piezoeléctrica 06 AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-06-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 13,
+        "name": "Kit Delta Piezoeléctrica 06 INOX",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-06-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 14,
+        "name": "Kit Delta Piezoeléctrica 09",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-09.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 15,
+        "name": "Kit Delta Piezoeléctrica 09 AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-09-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 16,
+        "name": "Kit Delta Piezoeléctrica 09 INOX",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-09-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 17,
+        "name": "Kit Delta Piezoeléctrica 12",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-12.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 18,
+        "name": "Kit Delta Piezoeléctrica 12 AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-12-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 19,
+        "name": "Kit Delta Piezoeléctrica 12 INOX",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-12-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 20,
+        "name": "Kit Delta Piezoeléctrica 15",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-15.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 21,
+        "name": "Kit Delta Piezoeléctrica 15 AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-15-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 22,
+        "name": "Kit Delta Piezoeléctrica 15 INOX",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-15-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 23,
+        "name": "Kit Delta Pro",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-delta-pro.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 24,
+        "name": "Kit Insta-Var",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-insta-var.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 25,
+        "name": "Kit KDA-01",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-kda-01.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 26,
+        "name": "Kit KDA-01 ALU",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-kda-01-alu.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 27,
+        "name": "Kit KDA-03",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-kda-03.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 28,
+        "name": "Kit KDA-05",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-kda-05.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 29,
+        "name": "Kit KDA-LU",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-kda-lu.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 30,
+        "name": "Kit Lat RHT",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-lat-rht.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 31,
+        "name": "Kit Master 01",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-01.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 32,
+        "name": "Kit Master 01 AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-01-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 33,
+        "name": "Kit Master 01 INOX",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-01-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 34,
+        "name": "Kit Master 03",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-03.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 35,
+        "name": "Kit Master 03 AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-03-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 36,
+        "name": "Kit Master 03 INOX",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-03-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 37,
+        "name": "Kit Master 05",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-05.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 38,
+        "name": "Kit Master 05 AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-05-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 39,
+        "name": "Kit Master 05 INOX",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-05-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 40,
+        "name": "Kit Master CAM-D",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-cam-d.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 41,
+        "name": "Kit Master CONM",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-conm.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 42,
+        "name": "Kit Master Dipolo",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-dipolo.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 43,
+        "name": "Kit Master Dipolo AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-dipolo-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 44,
+        "name": "Kit Master Dipolo INOX",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-dipolo-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 45,
+        "name": "Kit Master Dipolo PCCTV",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-dipolo-pcctv.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 46,
+        "name": "Kit Master LU",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-lu.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 47,
+        "name": "Kit Master LU AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-lu-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 48,
+        "name": "Kit Master LU INOX",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-lu-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 49,
+        "name": "Kit Master PCCTV AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-pcctv-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 50,
+        "name": "Kit Master PCCTV INOX",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-pcctv-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 51,
+        "name": "Kit Master PCD Enlaces",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-pcd-enlaces.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 52,
+        "name": "Kit Master PCD Enlaces AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-pcd-enlaces-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 53,
+        "name": "Kit Master PCD Enlaces FA",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-pcd-enlaces-fa.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 54,
+        "name": "Kit Master PCD Enlaces INOX",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-pcd-enlaces-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 55,
+        "name": "Kit Master Piezoeléctrica 06",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-piezo-06.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 56,
+        "name": "Kit Master Piezoeléctrica 09",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-piezo-09.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 57,
+        "name": "Kit Master Piezoeléctrica 12",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-piezo-12.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 58,
+        "name": "Kit Master Piezoeléctrica 15",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-piezo-15.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 59,
+        "name": "Kit Master SOHO",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-soho.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 60,
+        "name": "Kit Master TG 100AB",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-tg-100ab.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 61,
+        "name": "Kit Master TG 100K",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-tg-100k.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 62,
+        "name": "Kit Master TG 400AB",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-tg-400ab.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 63,
+        "name": "Kit Master TG 400K",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-tg-400k.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 64,
+        "name": "Kit Master TG 45AB",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-tg-45ab.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 65,
+        "name": "Kit Master TG 45K",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-tg-45k.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 66,
+        "name": "Kit Master TG 70AB",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-tg-70ab.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 67,
+        "name": "Kit Master TG 70K",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-tg-70k.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 68,
+        "name": "Kit Master TG-SITE",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-master-tg-site.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 69,
+        "name": "Kit PDA Postes-C",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/kit-pda-postes-c.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 70,
+        "name": "Kit TG 1000AB",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-tg-1000ab.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 71,
+        "name": "Kit TG 100AB",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-tg-100ab.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 72,
+        "name": "Kit TG 100K",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-tg-100k.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 73,
+        "name": "Kit TG 400AB",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-tg-400ab.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 74,
+        "name": "Kit TG 400K",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-tg-400k.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 75,
+        "name": "Kit TG 45AB",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-tg-45ab.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 76,
+        "name": "Kit TG 45K",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-tg-45k.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 77,
+        "name": "Kit TG 700AB",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-tg-700ab.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 78,
+        "name": "Kit TG 70AB",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-tg-70ab.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 79,
+        "name": "Kit TG 70K",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-tg-70k.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 80,
+        "name": "Kit Torre 01",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/kit-torre-01.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 81,
+        "name": "Kit Torre 03",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/kit-torre-03.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 82,
+        "name": "Kit Torre 05",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/kit-torre-05.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 83,
+        "name": "Kit Torre Dipolo",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/kit-torre-dipolo.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 84,
+        "name": "Kit Torre LU",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/kit-torre-lu.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 85,
+        "name": "Kit Total Tower TGTZ 30",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgtz-30.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 86,
+        "name": "Kit Total Tower TGTZ 35",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgtz-35.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 87,
+        "name": "Kit Total Tower TGTZ 45",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgtz-45.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 88,
+        "name": "Kit Total Tower TGTZ 60",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgtz-60.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 89,
+        "name": "Kit Total Tower TGTZ GIC 30",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgtz-gic-30.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 90,
+        "name": "Kit Total Tower TGTZ GIC 35",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgtz-gic-35.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 91,
+        "name": "Kit Total Tower TGTZ GIC 45",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgtz-gic-45.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 92,
+        "name": "Kit Variground",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-variground.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 93,
+        "name": "Kit Variground-Sint",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/kit-variground-sint.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 94,
+        "name": "Kits Retenida KITRMASTIL3",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/kitrmastil3.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 95,
+        "name": "Kits Retenida KITRMASTIL6",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/kitrmastil6.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 96,
+        "name": "Lainas de Cobre TGM-LC",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgm-lc.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 97,
+        "name": "Lima para Limpiar Escoria TGM-LLC",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgm-llc.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 98,
+        "name": "Masilla de Empaque para Soldadura TGM-MSM",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgm-msm.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 99,
+        "name": "Mastil 120 Acero Inoxidable",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/mastil-120-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 100,
+        "name": "Mastil 120 Aluminio",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/mastil-120-alu.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 101,
+        "name": "Mastil Acero INOX MTG03",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/mtg03.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 102,
+        "name": "Mastil Acero INOX MTG06",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/mtg06.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 103,
+        "name": "Mastil Aluminio MTG03",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/mtg03-alu.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 104,
+        "name": "Mastil Aluminio MTG06",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/mtg06-alu.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 105,
+        "name": "Mastil MT1.2-3/4 Acero Inoxidable",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/mt1-2-3-4-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 106,
+        "name": "Mastil MT1.2-3/4 Aluminio",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/mt1-2-3-4-alu.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 107,
+        "name": "Ohmcreto",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/ohmcreto.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 108,
+        "name": "Pinzas de Sujecion Molde Exotermico TGM-P",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgm-pinzas.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 109,
+        "name": "Punta Dipolo",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-dipolo.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 110,
+        "name": "Punta Dipolo AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-dipolo-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 111,
+        "name": "Punta Erizo",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-erizo.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 112,
+        "name": "Punta Franklin",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-franklin.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 113,
+        "name": "Punta Franklin AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-franklin-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 114,
+        "name": "Punta Maciza 120",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-maciza-120.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 115,
+        "name": "Punta Maciza 150",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-maciza-150.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 116,
+        "name": "Punta Maciza 180",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-maciza-180.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 117,
+        "name": "Punta Maciza 200",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-maciza-200.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 118,
+        "name": "Punta Maciza 30",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-maciza-30.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 119,
+        "name": "Punta Maciza 30 AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-maciza-30-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 120,
+        "name": "Punta Maciza 60",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-maciza-60.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 121,
+        "name": "Punta Maciza 60 AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-maciza-60-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 122,
+        "name": "Punta Maciza 90",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-maciza-90.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 123,
+        "name": "Punta Maciza 90 AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-maciza-90-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 124,
+        "name": "Punta Piezoeléctrica",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-piezoelectrica.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 125,
+        "name": "Punta Piezoeléctrica TGPE INOX",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-piezo-tgpe-inox.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 126,
+        "name": "Punta TG01",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-tg01.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 127,
+        "name": "Punta TG01 AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-tg01-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 128,
+        "name": "Punta TG03",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-tg03.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 129,
+        "name": "Punta TG03 AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-tg03-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 130,
+        "name": "Punta TG05",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-tg05.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 131,
+        "name": "Punta TG05 AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-tg05-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 132,
+        "name": "Punta TGLU",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-tglu.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 133,
+        "name": "Punta TGLU AI",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/punta-tglu-ai.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 134,
+        "name": "Raspador de Acero Estructural TGM-RDA",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgm-rda.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 135,
+        "name": "Registro S1010",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/registro-s1010.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 136,
+        "name": "Registro S1419",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/registro-s1419.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 137,
+        "name": "Registro S610",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/registro-s610.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 138,
+        "name": "Regulador TG REG1000 F360",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/tg-reg1000-f360.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 139,
+        "name": "Regulador TG REG2000 F360",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/tg-reg2000-f360.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 140,
+        "name": "Regulador TG REG500 F360",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/tg-reg500-f360.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 141,
+        "name": "Regulador TG REGBA1000",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/tg-regba1000.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 142,
+        "name": "Rehilete Atornillado 20",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/rehilete-atornillado-20.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 143,
+        "name": "Rehilete Atornillado 30",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/rehilete-atornillado-30.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 144,
+        "name": "Rehilete Soldado 20",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/rehilete-soldado-20.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 145,
+        "name": "Rehilete Soldado 30",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/rehilete-soldado-30.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 146,
+        "name": "Smart View M103",
+        "category": "telemetria",
+        "price": "Contactar",
+        "image": "assets/products/smart-view-m103.jpg",
+        "icon": "📊"
+    },
+    {
+        "id": 147,
+        "name": "SOHO 1F",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/soho-1f.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 148,
+        "name": "SOHO 220",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/soho-220.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 149,
+        "name": "Soplete Gas Butano TGM-GAS",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgm-gas.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 150,
+        "name": "Suprack 220",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/suprack-220.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 151,
+        "name": "Suprack de Línea",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/suprack-de-linea.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 152,
+        "name": "Suprack RV",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/suprack-rv.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 153,
+        "name": "Suprector Clase B",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/suprector-clase-b.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 154,
+        "name": "Suprector Clase C",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/suprector-clase-c.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 155,
+        "name": "SUPT UTP01",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/supt-utp01.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 156,
+        "name": "SUPT UTP04",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/supt-utp04.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 157,
+        "name": "Suptreck Bifásico",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/suptreck-bifasico.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 158,
+        "name": "Suptreck Monofásico",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/suptreck-monofasico.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 159,
+        "name": "Suptreck Trifásico",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/suptreck-trifasico.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 160,
+        "name": "Sureground",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/sureground.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 161,
+        "name": "SUTP POE",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/sutp-poe.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 162,
+        "name": "SUTP UTPAC",
+        "category": "supresores",
+        "price": "Contactar",
+        "image": "assets/products/sutp-utpac.jpg",
+        "icon": "⚡"
+    },
+    {
+        "id": 163,
+        "name": "Tapete Aislador",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/tapete-aislador.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 164,
+        "name": "Tapones Acoplador",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/tapones-acoplador.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 165,
+        "name": "Terrómetro TG-04",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/terrometro-tg-04.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 166,
+        "name": "Terrómetro TGTRX 4.0 LoRaWAN",
+        "category": "bot-tgone",
+        "price": "Contactar",
+        "image": "assets/products/tgtrx-lorawan.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 167,
+        "name": "Terrómetro TGTRX 4.0 SIGFOX",
+        "category": "bot-tgone",
+        "price": "Contactar",
+        "image": "assets/products/tgtrx-sigfox.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 168,
+        "name": "TG Chispero TGM-CEF",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgm-cef.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 169,
+        "name": "TG NESS",
+        "category": "bot-tgone",
+        "price": "Contactar",
+        "image": "assets/products/tg-ness.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 170,
+        "name": "TG-Quim",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/tg-quim.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 171,
+        "name": "TGBUPT-2P",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/tgbupt-2p.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 172,
+        "name": "TGBUPT-4P",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/tgbupt-4p.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 173,
+        "name": "TGCABT3",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/tgcabt3.jpg",
+        "icon": "🌍"
+    },
+    {
+        "id": 174,
+        "name": "TGCOM",
+        "category": "bot-tgone",
+        "price": "Contactar",
+        "image": "assets/products/tgcom.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 175,
+        "name": "TGFC",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgfc.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 176,
+        "name": "TGHU",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tghu.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 177,
+        "name": "TGLLF",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgllf.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 178,
+        "name": "TGLO",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tglo.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 179,
+        "name": "TGONE Basic",
+        "category": "bot-tgone",
+        "price": "Contactar",
+        "image": "assets/products/tgone-basic.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 180,
+        "name": "TGONE Pro",
+        "category": "bot-tgone",
+        "price": "Contactar",
+        "image": "assets/products/tgone-pro.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 181,
+        "name": "TGRS485 Convertidor Total View",
+        "category": "telemetria",
+        "price": "Contactar",
+        "image": "assets/products/tgrs485-totalview.jpg",
+        "icon": "📊"
+    },
+    {
+        "id": 182,
+        "name": "Total Monitor",
+        "category": "telemetria",
+        "price": "Contactar",
+        "image": "assets/products/total-monitor.jpg",
+        "icon": "📊"
+    },
+    {
+        "id": 183,
+        "name": "Total Tower TGTZ 30",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgtz-30-vientos.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 184,
+        "name": "Total Tower TGTZ 35",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgtz-35-vientos.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 185,
+        "name": "Total Tower TGTZ 45",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgtz-45-vientos.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 186,
+        "name": "Total View con LoRaWAN",
+        "category": "bot-tgone",
+        "price": "Contactar",
+        "image": "assets/products/totalview-lorawan.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 187,
+        "name": "TOV452",
+        "category": "telemetria",
+        "price": "Contactar",
+        "image": "assets/products/tov452.jpg",
+        "icon": "📊"
+    },
+    {
+        "id": 188,
+        "name": "TOV452 con Gabinete",
+        "category": "telemetria",
+        "price": "Contactar",
+        "image": "assets/products/tov452-gabinete.jpg",
+        "icon": "📊"
+    },
+    {
+        "id": 189,
+        "name": "Tripie Faraday TG-Tri",
+        "category": "pararrayos",
+        "price": "Contactar",
+        "image": "assets/products/tg-tri.jpg",
+        "icon": "🗼"
+    },
+    {
+        "id": 190,
+        "name": "Varilla a Varilla Molde TGM-VV",
+        "category": "infraestructura",
+        "price": "Contactar",
+        "image": "assets/products/tgm-vv.jpg",
+        "icon": "📦"
+    },
+    {
+        "id": 191,
+        "name": "Varillas",
+        "category": "puesta-a-tierra",
+        "price": "Contactar",
+        "image": "assets/products/varillas-tierra.jpg",
+        "icon": "🌍"
+    }
+]

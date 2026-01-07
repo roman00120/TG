@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -68,22 +68,26 @@
     </header>
 
     <main>
-        <!-- Home Hero 2026 -->
+        <!-- Home Hero 2026 - Red Notch Style -->
         <section class="hero section-padding">
+            <div class="hero-bg-wrapper">
+                <video class="hero-video" autoplay muted loop playsinline>
+                    <source src="videos/video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero-overlay"></div>
+
             <div class="container hero-grid-layout">
-                <div class="hero-content" style="z-index: 10;">
+                <div class="hero-content">
                     <div class="badge"
-                        style="display: inline-block; padding: 6px 16px; background: var(--brand-soft); color: var(--brand); border-radius: 20px; font-weight: 700; font-size: 0.75rem; margin-bottom: 20px;">
+                        style="display: inline-block; padding: 6px 16px; background: rgba(255,255,255,0.1); color: white; border-radius: 20px; font-weight: 700; font-size: 0.75rem; margin-bottom: 20px;">
                         INNOVACIÓN ELÉCTRICA 2026</div>
                     <h1 class="hero-title">Energía Sin <span>Límites</span></h1>
                     <p class="hero-subtitle">Redefiniendo el estándar global en sistemas de puesta a tierra y protección
                         eléctrica.</p>
-                    <div class="hero-btns" style="display: flex; gap: 15px;">
-                        <a href="catalogo.html" class="cta-btn"
-                            style="border-radius: 30px; padding: 16px 36px;">Explorar Soluciones</a>
-                        <button class="cta-btn outline"
-                            style="border-radius: 30px; padding: 16px 36px; border: 1px solid var(--text-muted);">Saber
-                            Más</button>
+                    <div class="hero-btns">
+                        <a href="catalogo.html" class="cta-btn">Explorar Soluciones</a>
+                        <button class="cta-btn outline">Saber Más</button>
                     </div>
                 </div>
             </div>
@@ -99,92 +103,110 @@
                     <div class="header-line"></div>
                 </div>
 
-                <div class="family-grid">
-                    <a href="catalogo.html?cat=puesta-a-tierra" class="family-card">
-                        <div class="family-icon-box">
-                            <img src="https://totalground.com/assets/img/iconos/puesta-a-tierra.png"
-                                alt="Sistema de puesta a tierra"
-                                onerror="this.parentElement.setAttribute('data-icon', '🌍'); this.style.display='none';">
-                        </div>
-                        <h3 class="family-name">Sistema de puesta a tierra</h3>
-                    </a>
+                <div class="family-carousel-wrapper" style="position: relative;">
+                    <button class="carousel-nav prev" id="familyPrev" aria-label="Anterior">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+                        </svg>
+                    </button>
 
-                    <a href="catalogo.html?cat=pararrayos" class="family-card">
-                        <div class="family-icon-box">
-                            <img src="https://totalground.com/assets/img/iconos/pararrayos.png"
-                                alt="Sistema de Pararrayos"
-                                onerror="this.parentElement.setAttribute('data-icon', '🗼'); this.style.display='none';">
-                        </div>
-                        <h3 class="family-name">Sistema de Pararrayos</h3>
-                    </a>
+                    <div class="family-grid" id="familyCarousel">
+                        <!-- Sistema de puesta a tierra -->
+                        <a href="catalogo.html?cat=puesta-a-tierra" class="family-card"
+                            style="--bg-image: url('https://images.unsplash.com/photo-1558444458-5af0012ced59?w=800&q=80')">
+                            <div class="family-card-overlay"></div>
+                            <div class="family-card-content">
+                                <h3 class="family-name">Sistema de puesta a tierra</h3>
+                            </div>
+                        </a>
 
-                    <a href="catalogo.html?cat=telemetria" class="family-card">
-                        <div class="family-icon-box">
-                            <img src="https://totalground.com/assets/img/iconos/telemetria-y-control.png"
-                                alt="Telemetría y Control"
-                                onerror="this.parentElement.setAttribute('data-icon', '📊'); this.style.display='none';">
-                        </div>
-                        <h3 class="family-name">Telemetría y Control</h3>
-                    </a>
+                        <!-- Sistema de Pararrayos -->
+                        <a href="catalogo.html?cat=pararrayos" class="family-card"
+                            style="--bg-image: url('https://images.unsplash.com/photo-1498429089284-41f8cf3ffd39?w=800&q=80')">
+                            <div class="family-card-overlay"></div>
+                            <div class="family-card-content">
+                                <h3 class="family-name">Sistema de Pararrayos</h3>
+                            </div>
+                        </a>
 
-                    <a href="catalogo.html?cat=supresores" class="family-card">
-                        <div class="family-icon-box">
-                            <img src="https://totalground.com/assets/img/iconos/supresores.png" alt="Supresores"
-                                onerror="this.parentElement.setAttribute('data-icon', '⚡'); this.style.display='none';">
-                        </div>
-                        <h3 class="family-name">Supresores</h3>
-                    </a>
+                        <!-- Telemetría y Control -->
+                        <a href="catalogo.html?cat=telemetria" class="family-card"
+                            style="--bg-image: url('https://images.unsplash.com/photo-1551288049-bbbda536ad37?w=800&q=80')">
+                            <div class="family-card-overlay"></div>
+                            <div class="family-card-content">
+                                <h3 class="family-name">Telemetría y Control</h3>
+                            </div>
+                        </a>
 
-                    <a href="catalogo.html?cat=tech-fussion" class="family-card">
-                        <div class="family-icon-box">
-                            <img src="https://totalground.com/assets/img/iconos/techfussion.png" alt="Tech fussion"
-                                onerror="this.parentElement.setAttribute('data-icon', '🔥'); this.style.display='none';">
-                        </div>
-                        <h3 class="family-name">Tech fussion</h3>
-                    </a>
+                        <!-- Supresores -->
+                        <a href="catalogo.html?cat=supresores" class="family-card"
+                            style="--bg-image: url('https://images.unsplash.com/photo-1517420812314-8b17179fdfd8?w=800&q=80')">
+                            <div class="family-card-overlay"></div>
+                            <div class="family-card-content">
+                                <h3 class="family-name">Supresores</h3>
+                            </div>
+                        </a>
 
-                    <a href="catalogo.html?cat=bot-tgone" class="family-card">
-                        <div class="family-icon-box">
-                            <img src="https://totalground.com/assets/img/iconos/iot.png" alt="TGONE"
-                                onerror="this.parentElement.setAttribute('data-icon', '🤖'); this.style.display='none';">
-                        </div>
-                        <h3 class="family-name">TGONE</h3>
-                    </a>
+                        <!-- Tech fussion -->
+                        <a href="catalogo.html?cat=tech-fussion" class="family-card"
+                            style="--bg-image: url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80')">
+                            <div class="family-card-overlay"></div>
+                            <div class="family-card-content">
+                                <h3 class="family-name">Tech fussion</h3>
+                            </div>
+                        </a>
 
-                    <a href="catalogo.html?cat=banco-capacitores" class="family-card">
-                        <div class="family-icon-box">
-                            <img src="https://totalground.com/assets/img/iconos/bancos-capacitores.png"
-                                alt="Bancos de Capacitores"
-                                onerror="this.parentElement.setAttribute('data-icon', '🔋'); this.style.display='none';">
-                        </div>
-                        <h3 class="family-name">Bancos de Capacitores</h3>
-                    </a>
+                        <!-- TGONE -->
+                        <a href="catalogo.html?cat=bot-tgone" class="family-card"
+                            style="--bg-image: url('https://images.unsplash.com/photo-1544724569-5f546fa66075?w=800&q=80')">
+                            <div class="family-card-overlay"></div>
+                            <div class="family-card-content">
+                                <h3 class="family-name">TGONE</h3>
+                            </div>
+                        </a>
 
-                    <a href="catalogo.html?cat=regulador-360" class="family-card">
-                        <div class="family-icon-box">
-                            <img src="https://totalground.com/assets/img/iconos/regulacion-y-respaldo.png"
-                                alt="Regulador 360"
-                                onerror="this.parentElement.setAttribute('data-icon', '🔌'); this.style.display='none';">
-                        </div>
-                        <h3 class="family-name">Regulador 360</h3>
-                    </a>
+                        <!-- Bancos de Capacitores -->
+                        <a href="catalogo.html?cat=banco-capacitores" class="family-card"
+                            style="--bg-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80')">
+                            <div class="family-card-overlay"></div>
+                            <div class="family-card-content">
+                                <h3 class="family-name">Bancos de Capacitores</h3>
+                            </div>
+                        </a>
 
-                    <a href="catalogo.html?cat=safe-connector" class="family-card">
-                        <div class="family-icon-box">
-                            <img src="https://totalground.com/assets/img/iconos/safe-connector.png" alt="Safe Connector"
-                                onerror="this.parentElement.setAttribute('data-icon', '🔗'); this.style.display='none';">
-                        </div>
-                        <h3 class="family-name">Safe Connector</h3>
-                    </a>
+                        <!-- Regulador 360 -->
+                        <a href="catalogo.html?cat=regulador-360" class="family-card"
+                            style="--bg-image: url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&q=80')">
+                            <div class="family-card-overlay"></div>
+                            <div class="family-card-content">
+                                <h3 class="family-name">Regulador 360</h3>
+                            </div>
+                        </a>
 
-                    <a href="catalogo.html?cat=torres-arriostradas" class="family-card">
-                        <div class="family-icon-box">
-                            <img src="https://testing.totalground.com/assets/img/iconos/torres.png"
-                                alt="Torres Arriostradas"
-                                onerror="this.parentElement.setAttribute('data-icon', '🏗️'); this.style.display='none';">
-                        </div>
-                        <h3 class="family-name">Torres Arriostradas</h3>
-                    </a>
+                        <!-- Safe Connector -->
+                        <a href="catalogo.html?cat=safe-connector" class="family-card"
+                            style="--bg-image: url('https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=800&q=80')">
+                            <div class="family-card-overlay"></div>
+                            <div class="family-card-content">
+                                <h3 class="family-name">Safe Connector</h3>
+                            </div>
+                        </a>
+
+                        <!-- Torres Arriostradas -->
+                        <a href="catalogo.html?cat=torres-arriostradas" class="family-card"
+                            style="--bg-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80')">
+                            <div class="family-card-overlay"></div>
+                            <div class="family-card-content">
+                                <h3 class="family-name">Torres Arriostradas</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <button class="carousel-nav next" id="familyNext" aria-label="Siguiente">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" />
+                        </svg>
+                    </button>
                 </div>
             </div>
         </section>

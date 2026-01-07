@@ -1,4 +1,4 @@
-/*
+﻿/*
    DESIGN SYSTEM 2026 - Industrial Dark Tech
    Modern, Professional, and Accessible.
 */
@@ -219,40 +219,107 @@ img {
 }
 
 /* --- Home Hero 2026 --- */
+/* --- Home Hero 2026 - Red & White Notch Style --- */
 .hero {
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     padding-top: 150px;
     position: relative;
     overflow: hidden;
+    background: #0f172a;
+    /* Base dark background */
+    z-index: 1;
 }
 
-.hero::before {
-    content: '';
+/* Background for the Video (Left Side) */
+.hero-bg-wrapper {
     position: absolute;
-    top: -10%;
-    right: -10%;
-    width: 60%;
-    height: 80%;
-    background: radial-gradient(circle, var(--brand-glow) 0%, transparent 70%);
-    filter: blur(80px);
-    z-index: -1;
+    top: 0;
+    left: 0;
+    /* Align to the left */
+    width: 100%;
+    /* Full width to be safe */
+    height: 100%;
+    z-index: 0;
+}
+
+.hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    /* Reduced width to show more video */
+    height: 100%;
+    background: linear-gradient(135deg, var(--brand) 0%, #a5040e 100%);
+    z-index: 2;
+    /* "Inverted Pacman" / Notch Shape - Pico a la izquierda (points left) */
+    clip-path: polygon(0 0, 100% 0, 85% 50%, 100% 100%, 0 100%);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    color: white;
+    /* White text for red background */
+    max-width: 480px;
+    /* Adjusting max-width for smaller red area */
+    text-align: left;
+    /* Content on the left */
+}
+
+.hero-btns {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    margin-top: var(--space-lg);
+}
+
+.hero-btns .cta-btn {
+    background: white !important;
+    color: var(--brand) !important;
+    border: none;
+}
+
+.hero-btns .cta-btn.outline {
+    background: transparent !important;
+    border: 2px solid white !important;
+    color: white !important;
+}
+
+.hero-btns .cta-btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .hero-title {
-    font-size: clamp(3rem, 10vw, 6rem);
+    font-size: clamp(3.5rem, 10vw, 6.5rem);
     font-weight: 950;
-    line-height: 0.95;
+    line-height: 0.85;
     letter-spacing: -4px;
     margin-bottom: var(--space-md);
+    color: white;
+}
+
+.hero-title span {
+    display: block;
+    opacity: 0.9;
 }
 
 .hero-subtitle {
-    font-size: 1.4rem;
-    max-width: 600px;
-    color: var(--text-secondary);
+    font-size: 1.5rem;
+    max-width: 550px;
+    color: rgba(255, 255, 255, 0.9);
     margin-bottom: var(--space-lg);
+    line-height: 1.4;
+    font-weight: 400;
 }
 
 /* --- Bento Grid Section --- */
@@ -315,9 +382,12 @@ img {
 }
 
 .section-title {
-    font-size: 2.5rem;
-    font-weight: 800;
+    font-size: 3rem;
+    font-weight: 900;
     margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: var(--text-primary);
 }
 
 .section-title span {
@@ -457,7 +527,7 @@ img {
     border-radius: var(--radius-md);
 }
 
-/* --- Servicios Página Completa --- */
+/* --- Servicios PÃ¡gina Completa --- */
 .services-grid-detailed {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -506,7 +576,7 @@ img {
 }
 
 .service-card-full li::before {
-    content: '→';
+    content: 'â†’';
     position: absolute;
     left: 0;
     color: var(--accent);
@@ -533,7 +603,7 @@ img {
 }
 
 /* --- Responsive Nav (Continued) --- */
-/* --- Catálogo UX 2026 --- */
+/* --- CatÃ¡logo UX 2026 --- */
 .catalog-page {
     padding-top: 140px;
 }
@@ -996,7 +1066,10 @@ img {
 
 /* --- Familia Total Ground Section --- */
 .family-section {
-    background: var(--bg-secondary);
+    background: #ffffff;
+    /* Pure white */
+    padding: 100px 0;
+    /* More spacious */
 }
 
 .section-header.center {
@@ -1013,24 +1086,147 @@ img {
 }
 
 .family-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 30px;
+    padding: 20px 10px 40px 10px;
+    margin-top: 40px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    /* Hide scrollbar for cleaner look with arrows */
+    -ms-overflow-style: none;
+}
+
+.family-grid::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for Chrome/Safari */
+}
+
+/* Carousel Navigation Buttons */
+.carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--brand);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    z-index: 10;
+    transition: var(--transition-smooth);
+}
+
+.carousel-nav:hover {
+    background: var(--brand);
+    color: white;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-nav.prev {
+    left: -30px;
+}
+
+.carousel-nav.next {
+    right: -30px;
+}
+
+/* Hide navigation on touch devices if scroll is preferred */
+@media (max-width: 768px) {
+    .carousel-nav {
+        display: none;
+    }
+
+    .family-grid {
+        scrollbar-width: thin;
+    }
+
+    .family-grid::-webkit-scrollbar {
+        display: block;
+    }
 }
 
 .family-card {
-    background: white;
-    padding: 40px 20px;
-    border-radius: 25px;
-    text-align: center;
-    text-decoration: none;
-    color: var(--text-primary);
-    transition: var(--transition-smooth);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    position: relative;
+    flex: 0 0 280px;
+    /* Fixed width for horizontal scroll */
+    height: 400px;
+    /* Vertical banner height */
+    overflow: hidden;
+    border-radius: 20px;
+    background: #f8f9fa;
+    /* Fallback background */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.02);
+    justify-content: flex-end;
+    /* Align content to bottom */
+    text-decoration: none;
+    transition: var(--transition-smooth);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.family-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Red Gradient for Brand Consistency */
+    background: linear-gradient(to bottom, transparent 30%, rgba(227, 6, 19, 0.7) 70%, var(--brand) 100%);
+    z-index: 1;
+    transition: var(--transition-smooth);
+}
+
+.family-card:hover .family-card-overlay {
+    background: linear-gradient(to bottom, transparent 10%, rgba(227, 6, 19, 0.8) 60%, #a5040e 100%);
+}
+
+.family-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.family-card-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    color: white;
+}
+
+.family-name {
+    font-size: 1rem;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Background Zoom Effect */
+.family-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.8s cubic-bezier(0.2, 1, 0.3, 1);
+    z-index: 0;
+}
+
+.family-card:hover::before {
+    transform: scale(1.1);
 }
 
 .family-card:hover {
@@ -2081,6 +2277,7 @@ img {
         padding: 40px 20px;
     }
 }
+
 /* --- Multimedia Section --- */
 .multimedia-section {
     background: #f4f4f4;
@@ -2094,7 +2291,7 @@ img {
     grid-template-columns: 1fr 1.2fr;
     gap: 60px;
     align-items: center;
-    box-shadow: 0 15px 50px rgba(0,0,0,0.02);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.02);
 }
 
 .multimedia-info .highlights-main-title {
@@ -2161,11 +2358,12 @@ img {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
     height: 0;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .video-container iframe {
@@ -2228,7 +2426,7 @@ img {
 .footer-main-row {
     text-align: center;
     margin-bottom: 60px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding-bottom: 40px;
 }
 
@@ -2345,7 +2543,7 @@ img {
 .footer-copyright {
     text-align: center;
     padding-top: 30px;
-    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: #718096;
     font-size: 0.85rem;
 }
@@ -2370,9 +2568,20 @@ img {
 }
 
 @keyframes pulse-wa {
-    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
-    70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
-    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+    }
+
+    70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+    }
 }
 
 .whatsapp-float:hover {
@@ -2493,14 +2702,14 @@ html {
     background: white;
     border-radius: 30px;
     overflow: hidden;
-    box-shadow: 0 25px 60px rgba(0,0,0,0.08);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
     border: 1px solid #edf2f7;
     transition: var(--transition-smooth);
 }
 
 .training-card-dynamic:hover {
     transform: translateY(-10px);
-    box-shadow: 0 40px 80px rgba(0,0,0,0.12);
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.12);
 }
 
 .t-card-header {
@@ -2589,6 +2798,7 @@ html {
         grid-template-columns: 1fr;
         gap: 40px;
     }
+
     .training-text-content {
         padding-right: 0;
         text-align: center;
@@ -2692,7 +2902,7 @@ html {
 .empresa-hero {
     min-height: 500px;
     background: linear-gradient(135deg, rgba(227, 6, 19, 0.9), rgba(26, 32, 44, 0.85)),
-                url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1600&h=800&fit=crop');
+        url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1600&h=800&fit=crop');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -2733,12 +2943,12 @@ html {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .empresa-cta-btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
     background: #f8f9fa;
 }
 
@@ -2788,7 +2998,7 @@ html {
     height: 280px;
     object-fit: cover;
     border-radius: 20px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -2857,7 +3067,7 @@ html {
         grid-template-columns: 1fr;
         gap: 50px;
     }
-    
+
     .empresa-departments-grid {
         grid-template-columns: 1fr;
         gap: 30px;
@@ -2869,13 +3079,13 @@ html {
         padding: 100px 0 60px;
         min-height: 400px;
     }
-    
+
     .empresa-section-title {
         font-size: 2rem;
     }
 }
 
-/* --- �Qu� Hacemos? Section Styles --- */
+/* --- ¿Qué Hacemos? Section Styles --- */
 .what-we-do-section {
     background: white;
 }
@@ -3098,7 +3308,7 @@ html {
         grid-template-columns: 1fr;
         gap: 30px;
     }
-    
+
     .values-cards-section {
         grid-template-columns: 1fr;
         gap: 30px;
@@ -3109,12 +3319,12 @@ html {
     .faq-section-wrapper {
         padding: 40px 20px;
     }
-    
+
     .faq-question {
         padding: 15px 20px;
         font-size: 0.95rem;
     }
-    
+
     .faq-answer {
         padding: 0 20px 20px;
     }
